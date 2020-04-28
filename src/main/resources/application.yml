@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.105.195.91/order_food?characterEncoding=utf-8
+    username: fyj
+    password: fyj2020@!
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+ # jackson:
+ #   default-property-inclusion: non_null
+  freemarker:
+    suffix: .ftl
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+server:
+  servlet:
+    context-path: /order
+
+wechat:
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+
+projectUrl:
+  wechatOpenAuthorize: http://bizy.natapp1.cc
+  order: http://localhost:8080/order
+
