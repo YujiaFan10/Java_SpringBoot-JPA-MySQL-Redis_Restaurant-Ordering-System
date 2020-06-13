@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://39.105.195.91/order_food?characterEncoding=utf-8
-    username: fyj
-    password: fyj2020@!
+    url: jdbc:mysql://order_food?characterEncoding=utf-8
+    username:
+    password:
   jpa:
     hibernate:
       ddl-auto: update
