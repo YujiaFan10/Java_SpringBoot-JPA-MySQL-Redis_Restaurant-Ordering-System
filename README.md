@@ -19,33 +19,33 @@ Provide merchants with visibility into the entire process
 
 Method	| Path 	| Parameter 	| Description	| User authenticated	| Available from UI
 ------------- | ------------ | ------------ | ------------- |:-------------:|:----------------:|
-POST	| /seller/user/register | sellerInfo |  Regitster as an user	| ✓ | ×	
-GET	| /seller/user/start	| * | Direct to login page 	| ✓  | ×
-GET	| /seller/user/login	| username, password | Login as an user 	| ✓  | ×
-GET	| /seller/user/logout	| * | Logout 	| ✓  | ×
+POST	| /seller/user/register | sellerInfo |  Regitster as an user	| × | ✓	
+GET	| /seller/user/start	| * | Direct to login page 	| ×  | ✓
+GET	| /seller/user/login	| username, password | Login as an user 	| ×  | ✓
+GET	| /seller/user/logout	| * | Logout 	| ✓  | ✓
 
 Method	| Path 	| Parameter 	| Description	| User authenticated	| Available from UI
 ------------- | ------------ | ------------ | ------------- |:-------------:|:----------------:|
-GET	| /seller/order/list | * |  Get all order information	| ✓ | ×	
-GET	| /seller/order/detail	| orderId | Get details of a certain order 	| ✓  | ×
-GET	| /seller/order/cancel	| orderId | Cancel a certain order 	| ✓  | ×
-GET	| /seller/order/finish	| orderId | Complete a certain order 	| ✓  | ×
-GET	| /buyer/order/detail	| userId, orderId | Get a certain order information  	| ✓  | ×
-POST	| /buyer/order/cancel	| userId, orderId | Cancel a certain order 	| ✓  | ×
+GET	| /seller/order/list | * |  Get all order information	| ✓ | ✓	
+GET	| /seller/order/detail	| orderId | Get details of a certain order 	| ✓  | ✓
+GET	| /seller/order/cancel	| orderId | Cancel a certain order 	| ✓  | ✓
+GET	| /seller/order/finish	| orderId | Complete a certain order 	| ✓  | ✓
+GET	| /buyer/order/detail	| userId, orderId | Get a certain order information  	| ✓  | ✓
+POST	| /buyer/order/cancel	| userId, orderId | Cancel a certain order 	| ✓  | ✓
 
 Method	| Path 	| Parameter 	| Description	| User authenticated	| Available from UI
 ------------- | ------------ | ------------ | ------------- |:-------------:|:----------------:|
-GET	| /seller/product/list | * |  Get all product information	| ✓ | ×	
-GET	| /seller/product/putOn	| productId | Put a certain product on the shelf 	| ✓  | ×
-GET	| /seller/product/putOff	| productId | Remove a certain product 	| ✓  | ×
-GET	| /seller/product/revise	| productId | Revise a certain product information 	| ✓  | ×
-POST	| /seller/product/save	| productForm | Create a new product 	| ✓  | ×
+GET	| /seller/product/list | * |  Get all product information	| ✓ | ✓	
+GET	| /seller/product/putOn	| productId | Put a certain product on the shelf 	| ✓  | ✓
+GET	| /seller/product/putOff	| productId | Remove a certain product 	| ✓  | ✓
+GET	| /seller/product/revise	| productId | Revise a certain product information 	| ✓  | ✓
+POST	| /seller/product/save	| productForm | Create a new product 	| ✓  | ✓
 
 Method	| Path 	| Parameter 	| Description	| User authenticated	| Available from UI
 ------------- | ------------ | ------------ | ------------- |:-------------:|:----------------:|
-GET	| /seller/category/list | * |  Get all product category information	| ✓ | ×	
-GET	| /seller/category/revise	| categoryId | Revise a certain category information 	| ✓  | ×
-POST	| /seller/category/save	| categoryForm | Create a new product category 	| ✓  | ×
+GET	| /seller/category/list | * |  Get all product category information	| ✓ | ✓	
+GET	| /seller/category/revise	| categoryId | Revise a certain category information 	| ✓  | ✓
+POST	| /seller/category/save	| categoryForm | Create a new product category 	| ✓  | ✓
 
 -----------------------------------------------------------------------------
 
@@ -59,3 +59,38 @@ GET	| /buyer/order/list	| userId | Get all order information according to the ce
 GET	| /buyer/order/detail	| userId, orderId | Get certain order information  	| ✓  | ×
 POST	| /buyer/order/cancel	| userId, orderId | Cancel certain order 	| ✓  | ×
 GET	| /buyer/product/list	| userId | Read all products information 	| ✓  | ×
+
+-----------------------------------------------------------------------------
+
+# Preview
+
+![UI](pic/orderList.png)
+
+![UI](pic/productList.png)
+
+![UI](pic/categorylist.png)
+
+![UI](pic/message.png)
+
+![UI](pic/orderPrice.png)
+
+![UI](pic/productRevise.png)
+
+![UI](pic/productAdd.png)
+
+![UI](pic/categoryRevise.png)
+
+![UI](pic/categoryAdd.png)
+
+![UI](pic/login.png)
+
+![UI](pic/logout.png)
+
+
+## Contributions are welcome!
+
+Feel free to suggest and implement improvements.
+
+yujiafan10@gmail.com
+
+
