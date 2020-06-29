@@ -66,11 +66,11 @@ GET	| /buyer/product/list	| userId | Read all products information 	| ✓  | ×
 
 ![UI](pic/orderList.png)
 
+![UI](pic/message.png)
+
 ![UI](pic/productList.png)
 
 ![UI](pic/categorylist.png)
-
-![UI](pic/message.png)
 
 ![UI](pic/orderPrice.png)
 
