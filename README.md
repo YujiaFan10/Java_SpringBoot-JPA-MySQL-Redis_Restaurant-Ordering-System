@@ -86,6 +86,7 @@ GET	| /buyer/product/list	| userId | Read all products information 	| ✓  | ×
 
 ![UI](pic/logout.png)
 
+-----------------------------------------------------------------------------
 
 ## Contributions are welcome!
 
